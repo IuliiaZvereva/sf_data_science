@@ -6,7 +6,7 @@ number = np.random.randint(1, 101)                          # загаданно
 print("Загадано число от 1 до 100")
 
 
-def guess_num(number: int = 1) -> int:                                      # функция , которая угадывает число
+def guess_num(number: int = 1) -> int:                      # функция , которая угадывает число
     count = 0                                               # счетчик попыток
     low_predict = 1                                         # нижняя граница числа
     high_predict = 100                                      # верхняя граница числа
